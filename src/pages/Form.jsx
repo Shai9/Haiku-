@@ -34,7 +34,10 @@ export default function Form() {
         </div>
         <div className="mt-8 flex justify-center items-center">
           <p className="font-medium text-base">Don't Have an account?</p>
-          <button className="text-blue-700 text-base font-medium ml-2">SignUp</button>
+          <a href="/signup">
+            <button  className="text-blue-700 text-base font-medium ml-2">SignUp
+            </button>
+          </a>
         </div>
       </div>
     </div>
