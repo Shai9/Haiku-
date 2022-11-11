@@ -3,6 +3,7 @@ import React from "react";
 export default function Form() {
   return (
     <div>
+    <div>
       <h1 className="text-4xl font-semibold">Welcome Back</h1>
       <p className="font-medium text-lg mt-4">Enter your details below</p>
       <div className="mt-8">
@@ -40,6 +41,7 @@ export default function Form() {
           </a>
         </div>
       </div>
+    </div>
     </div>
   )
 }
