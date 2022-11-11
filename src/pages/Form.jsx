@@ -10,14 +10,15 @@ export default function Form() {
         <div>
           <label className='text-lg font-medium' htmlFor="email">Email</label>
           <input 
-            className="w-full rounded-xl p-2 mt-1 "
+            className="w-full rounded-xl p-2 mt-1 text-black "
             placeholder="Enter your Email"
           />
         </div>
         <div>
         <label className='text-lg font-medium' htmlFor="password">Password</label>
           <input 
-            className="w-full rounded-xl p-2 mt-1 "
+            className="w-full rounded-xl p-2 mt-1 text-black "
+            type='password'
             placeholder="Enter your password"
           />
         </div>
