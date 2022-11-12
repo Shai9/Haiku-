@@ -13,12 +13,12 @@ const Home = () => {
     { name: "User/Stats", link: "/", icon: AiOutlineUser },
     { name: "Messages", link: "/", icon: BsFillChatSquareFill },
     { name: "Calender", link: "/", icon: BsFillCalendarFill, margin: true },
-    { name: "Create a poem", link: "/", icon: BsFillBrushFill },
+    { name: "Create a poem", link: "/haikus/create", icon: BsFillBrushFill },
     { name: "Saved", link: "/", icon: AiOutlineHeart, margin: true },
     { name: "Ranking", link: "/", icon: HiChartBar },
-    { name: "Learn to write", link: "/", icon: HiAcademicCap },
+    { name: "Learn to write", link: "/haikus/teacher", icon: HiAcademicCap },
     { name: "Share", link: "/", icon: HiOutlineShare },
-    { name: "Settings", link: "/", icon: GoGear },
+    { name: "Settings", link: "/logout", icon: GoGear },
 
   ];
   const [open, setOpen] = useState(true);
@@ -67,10 +67,11 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className="m-3 text-xl text-white font-semibold">
-        Haiku Page
+      <div className="m-3 text-xl text-white font-semibold hover:underline decoration-blue-500 decoration-[0.20rem] ">
+        Haiku Dashboard
       </div>
     </section>
+    
   );
 };
 

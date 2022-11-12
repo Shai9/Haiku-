@@ -13,7 +13,7 @@ function NavBar() {
               <a href="/" className="hover:underline decoration-blue-500 decoration-[0.25rem]">Home</a>
               <a href="/haikus" className="hover:underline decoration-blue-500 decoration-[0.25rem]">Haiku</a>
               <a href="/events" className="hover:underline decoration-blue-500 decoration-[0.25rem]">Kukai</a>
-              <a href="/teacher" className="hover:underline decoration-blue-500 decoration-[0.25rem]">Sensei</a>
+              <a href="/haikus/teacher" className="hover:underline decoration-blue-500 decoration-[0.25rem]">Sensei</a>
               <a href="/discord" className="hover:underline decoration-blue-500 decoration-[0.25rem]">Community</a>
             </div>
           </div>
