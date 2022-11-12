@@ -9,21 +9,30 @@ export default function Form() {
         <div>
           <label className='text-lg font-medium' htmlFor="email">Email</label>
           <input 
-            className="w-full rounded-xl p-2 mt-1 "
+            className="w-full rounded-xl p-2 mt-1 text-black"
             placeholder="Enter your Email"
+          />
+        </div>
+        <div>
+          <label className='text-lg font-medium' htmlFor="username">Username</label>
+          <input 
+            className="w-full rounded-xl p-2 mt-1 text-black"
+            placeholder="Enter your username"
           />
         </div>
         <div>
           <label className='text-lg font-medium' htmlFor="password">Password</label>
           <input 
-            className="w-full rounded-xl p-2 mt-1 "
+            type='password'
+            className="w-full rounded-xl p-2 mt-1 text-black"
             placeholder="Enter your password"
           />
         </div>
         <div>
         <label className='text-lg font-medium' htmlFor="password confirmation">Password confirmation</label>
           <input 
-            className="w-full rounded-xl p-2 mt-1 "
+            type='password'
+            className="w-full rounded-xl p-2 mt-1 text-black"
             placeholder="Retype your password"
           />
         </div>

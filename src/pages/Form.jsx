@@ -8,16 +8,17 @@ export default function Form() {
       <p className="font-medium text-lg mt-4">Enter your details below</p>
       <div className="mt-8">
         <div>
-          <label className='text-lg font-medium' htmlFor="email">Email</label>
+          <label className='text-lg font-medium' htmlFor="username">Username</label>
           <input 
-            className="w-full rounded-xl p-2 mt-1 "
-            placeholder="Enter your Email"
+            className="w-full rounded-xl p-2 mt-1 text-black"
+            placeholder="Username"
           />
         </div>
         <div>
         <label className='text-lg font-medium' htmlFor="password">Password</label>
-          <input 
-            className="w-full rounded-xl p-2 mt-1 "
+          <input
+            type='password' 
+            className="w-full rounded-xl p-2 mt-1 text-black "
             placeholder="Enter your password"
           />
         </div>
